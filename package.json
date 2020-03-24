@@ -6,8 +6,8 @@
   "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "lint": "prettier --check {lib,test}/**/*.{ts,js}",
-    "format": "prettier --write {lib,test}/**/*.{ts,js}",
+    "lint": "prettier --check {lib,test}/**/*.ts",
+    "format": "prettier --write {lib,test}/**/*.ts",
     "test": "mocha",
     "prepare": "npm run build"
   },
